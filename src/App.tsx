@@ -103,7 +103,7 @@ setupIonicReact();
                 <li><a href='/tic_tac_toe'>Tic-tac-toe</a></li>
                 <li><a href='/clock'>Analogue clock</a></li>
                 <li><a href='/hangman'>Hangman</a></li>
-                <li><a href='/sass_'>Estonian puzzles</a></li>
+                <li><a href='/sass_'>Puzzles</a></li>
                 <li><a href='/sass_'>Sudoku</a></li>
                 <li><a href='/keyboard'>Virtual keyboard</a></li>
                 <li><a href='/solitaire'>Solitaire</a></li>
@@ -3413,7 +3413,6 @@ a:visited {
 }
 
 @media (min-height: 425px) {
-  /** Youtube logo by https://codepen.io/alvaromontoro */
   #youtube {
     z-index: 2;
     display: block;
@@ -3496,12 +3495,6 @@ a:visited {
       <p>Move every ball to the center. Ready for hard mode? Press H</p>
     </div>
   </div>
-</div>
-<a id="youtube" href="https://youtu.be/bTk6dcAckuI" target="_blank">
-  <span>See how this game was made</span>
-</a>
-<div id="youtube-card">
-  How to simulate ball movement in a maze with JavaScript
 </div>
 <script>
     /*
@@ -10229,11 +10222,11 @@ return this;
     </div>
     <script>
     var images = [
-        { src: 'https://raw.githubusercontent.com/sreegithub19/JavaScript-Applications/main/public/puzzle/img/neeruti.jpg', title: 'Neeruti manor' },
-        { src: 'https://raw.githubusercontent.com/sreegithub19/JavaScript-Applications/main/public/puzzle/img/harju_madise.jpg', title: 'Harju-Madis Church' },
-        { src: 'https://raw.githubusercontent.com/sreegithub19/JavaScript-Applications/main/public/puzzle/img/rahumae.jpg', title: 'Rahumäe train station' },
-        { src: 'https://raw.githubusercontent.com/sreegithub19/JavaScript-Applications/main/public/puzzle/img/kakumae.jpg', title: 'Kakumäe Harbor' },
-        { src: 'https://raw.githubusercontent.com/sreegithub19/JavaScript-Applications/main/public/puzzle/img/kohila.jpg', title: 'Kohila mill' }
+        { src: 'https://raw.githubusercontent.com/sreegithub19/JavaScript-Applications/main/public/puzzle/img/neeruti.jpg', title: 'Puzzle_1' },
+        { src: 'https://raw.githubusercontent.com/sreegithub19/JavaScript-Applications/main/public/puzzle/img/harju_madise.jpg', title: 'Puzzle_2' },
+        { src: 'https://raw.githubusercontent.com/sreegithub19/JavaScript-Applications/main/public/puzzle/img/rahumae.jpg', title: 'Puzzle_3' },
+        { src: 'https://raw.githubusercontent.com/sreegithub19/JavaScript-Applications/main/public/puzzle/img/kakumae.jpg', title: 'Puzzle_4' },
+        { src: 'https://raw.githubusercontent.com/sreegithub19/JavaScript-Applications/main/public/puzzle/img/kohila.jpg', title: 'Puzzle_5' }
     ];
     
     $(function () {
